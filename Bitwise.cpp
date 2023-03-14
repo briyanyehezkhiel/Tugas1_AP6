@@ -3,8 +3,9 @@ using namespace std;
 
 int main()
 {
-    system("sleep");
+    system("CLS");
     int a, b, c, d, e, f, g, h, i, j, k, l, m, n;
+    cout << "Masukkan angka : " << endl;
     cin >> n;
     a = ~n;          // not
     b = n >> 1;      // shr
